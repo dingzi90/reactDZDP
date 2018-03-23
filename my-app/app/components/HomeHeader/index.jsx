@@ -10,11 +10,11 @@ class HomeHeader extends React.Component {
         return (
         	<div className="clear-fix homeheader">
         		<div className="float-left address">
-	        		北京
+	        		{this.props.cityName}
 	        		<i className="icon-angle-down"></i>
         		</div>
         		<div className="inputSearch">
-        			 <input />ok
+        			 <input />
         		</div>
         		<div className="float-right head">
         			<i className="icon-user"></i>

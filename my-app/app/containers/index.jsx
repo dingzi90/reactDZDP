@@ -18,7 +18,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-            	<HomeHeader/>
+            	<HomeHeader cityName="北京"/>
                 {
                     this.state.initDone
                     ? this.props.children
